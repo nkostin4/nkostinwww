@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="icons/cat.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manim</title>
+<link rel="stylesheet" type="text/css" media="all" href="../style.css">
+</head>
+
+<body>
+
+<h1>Making Animations with Manim</h1>
+
+<hr>
+
+<img class=resright src=../pix/manim/manim.png>
+
+<p>by <a href="../index.html">N. Kostin</a></p>
+
+<h2>Table of Contents</h2>
+
+<ol id=toc>
+    <li><a href=#intro>What is Manim?</a></li>
+    <li><a href=#install>Installing Manim</a></li>
+    <li><a href=#tutorials>Resources for Learning Manim</a></li>
+</ol>
+
+<hr style=clear:both>
+
+<h2 id=intro>What is Manim?</h2>
+
+<p>Manim is a python engine originally developed by Grant Sanderson of <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a>. It's name is a portmanteau of the words "mathematical" and "animation". And that's exactly what manim is: a engine used to create precise programatic animations.</p>
+
+<img class=resright src=../pix/manim/3b1b.png>
+
+<p>As of 2020, there are two versions of manim. There's still <a href="https://github.com/3b1b/manim">Grant's original version</a>, and now <a href="https://github.com/ManimCommunity/manim/">there's also the community edition</a>, which is more stable and better tested.</p>
+
+<h2 id=install>Installing Manim (on Arch Linux)</h2>
+
+<p>Installing Manim used to be an absolute nightmare. Maybe I was just being retarded, but it was literally an all-day affair to me to get manim running on my machine.</p>
+
+<p>Fortunately, that's no longer the case. This is literally how easy it is:</p>
+
+<pre><code>sudo pacman -S python python-pip    # Installs python and pip
+sudo pacman -S ffmpeg cairo texlive-most    # Installs dependencies
+pip3 install manim    # Use pip to install python</code></pre>
+
+<p>Manim runs on Python 3.6 or later (as of writing, Arch linux is on Python 3.9.2).</p>
+
+<h2 id=tutorials>Resources for Learning Manim</h2>
+
+<p>The Manim community is growing larger by the day, and that means there's more and more resources to teach yourself manim.</p>
+
+<ul>
+    <li>The Manim community's <a href="https://www.manim.community/">website</a> is a good place to start. In particular, they seem to have good <a href="https://docs.manim.community/en/v0.3.0/">documentation</a>.</li>
+</ul>
+
+<hr style=clear:both>
+<footer>
+    <a href="../index.html"> 🏠 N. Kostin's Homepage</a> <br>
+    <a href="../contact.html"> 📬 Contact</a> <br>
+</footer>
+
+</body>
+</html>

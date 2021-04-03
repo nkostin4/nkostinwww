@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="icons/cat.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaTeX</title>
+<link rel="stylesheet" type="text/css" media="all" href="../style.css">
+</head>
+
+<body>
+
+<h1>Getting Started with LaTeX</h1>
+
+<hr>
+
+<img class=resright src=../pix/latex/maxwell_equations.png>
+
+<p>by <a href="../index.html">N. Kostin</a></p>
+
+<h2>Table of Contents</h2>
+
+<ol id=toc>
+    <li><a href=#intro>What is LaTeX?</a></li>
+    <li><a href=#use>Using LaTeX</a></li>
+    <li><a href=#tutorials>Resources for Learning LaTeX</a></li>
+</ol>
+
+<hr style=clear:both>
+
+<h2 id=intro>What is LaTeX?</h2>
+
+<p>In short, LaTeX is a document preparation system, built off <a href="https://www-cs-faculty.stanford.edu/~knuth/">Donald Knuth's</a> TeX typesetting system. The TeX typesetting system was first released in 1978, and it's source code is essentially in the public domain. Later on, in the 1980s, Leslie Lamport created LaTeX (which is the generalized set of TeX macros).</p>
+
+<h2 id=use>Using LaTeX</h2>
+
+<p>There are two main paradigms for writing LaTeX documents:</p>
+
+<ol>
+    <li>using an online cloud-computing service to compile your documents, the <a href="https://overleaf.com"> most popular of which is overleaf</a>, or</li>
+    <li>compiling documents offline on your own computer.</li>
+</ol>
+
+<p>I <strong>strongly</strong> recommend the latter over the former. And there's a number of reasons why:</p>
+
+<ul>
+    <li>You don't have to deal with the annoying <a href="https://status.overleaf.com/">server downtime</a> that come with using overleaf. Imagine not being able to work on your crummy master's thesis because some <a href="https://www.overleaf.com/about">chap in the UK</a> got drunk at the pub.</li>
+    <li>There's none of the <a href="https://youtu.be/tW2CFZ9SyMU?t=335">spookiness</a> that comes with storing <em>your personal files</em> on <em>someone else's computer</em>. Even if overleaf <a href="https://www.overleaf.com/legal#Terms">claims that they don't share your files</a>, you pretty much just have to take their word on that.</li>
+    <li>This method is far more extensible. You're not stuck using the text editor built that's built into overleaf. You're free to write your documents with whatever text editor you want. Or say you want to make a mathematical animation with <a href="manim.html">manim</a>. Well, LaTeX is right there to use on your computer.</li>
+</ul>
+
+<p>That being said, you will need to install LaTeX in order to compile it locally. Here's how:</p>
+
+<ul>
+    <li>Linux
+        <ul>
+            <li>Arch-based: <code>pacman -S texlive-most texlive-lang</code></li>
+            <li>Debian-based: <code>apt-get install texlive-full</code></li>
+            <li>Some distros (like Void) use <code>tlmgr</code> to install TeX packages instead of the main package manager.</li>
+        </ul>
+    <li>Windows: <a target="_blank" href="https://miktex.org/download/#collapse264">Here</a>. (Choose the net install to be able to install all packages.)
+    <li>MacOS: <a target="_blank" href="https://tug.org/mactex/">Here</a>.
+    </li>
+</ul>
+
+<p>Once you've downloaded and installed that, you have a fully-featured LaTeX engine on your machine!</p>
+
+<h2 id=tutorials>Resources for Learning LaTeX</h2>
+
+<ul>
+    <li>Luke Smith has a <a href="https://videos.lukesmith.xyz/videos/watch/playlist/48a02be8-115a-4842-9ebf-6e3c6245f290">full video tutorial series</a> on learning LaTeX, broken into small sensible parts.</li>
+    <li>If you have some specific quesion on LaTeX, there's a good chance it's been asked <a href="https://tex.stackexchange.com/">here</a>.</li>
+</ul>
+
+<hr style=clear:both>
+<footer>
+    <a href="../index.html"> 🏠 N. Kostin's Homepage</a> <br>
+    <a href="../contact.html"> 📬 Contact</a> <br>
+</footer>
+
+</body>
+</html>
