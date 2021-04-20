@@ -65,8 +65,8 @@ code {
 }
 
 ul {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 4em;
+	margin-right: 4em;
 }
 
 li img, p img {
@@ -76,14 +76,14 @@ li img, p img {
 
 html {
 	padding-top: 2em;
-	background: linear-gradient(#040080, black) no-repeat fixed;
-	margin-bottom: 4em;
+	background: linear-gradient(midnightblue, black) no-repeat fixed;
+	margin-bottom: 30em;
 
 }
 
 h1,h2,h3,h4 { text-align: center; }
 
-h1 { color: white; }
+h1 { color: tomato; }
 
 h2 { color: goldenrod; }
 
@@ -112,31 +112,25 @@ dt { font-weight: bold; color: lightgray; }
 	display: block;
 	margin: auto;
 	max-width: 90%;
-	max-height: 400px;
+	max-height: 10em;
 }
 
-.lol {
-	padding: .25em;
-}
+.lmao { padding: 0.25em; }
 
-.lol ul {
+.lmao ul {
 	margin: 0;
 	list-style: none;
 	padding: 0;
 }
 
-/* .lol li { */
-/* 	padding: 1px; */
-/* } */
-
 @media (min-width: 55em) {
 
-	.lol { display: inline-block; vertical-align: top; }
+	.lmao { display: inline-block; vertical-align: top; }
 
 	.resright, .disappear {
 		display: block;
 		float: right;
-		padding: 20px;
+		padding: 4em;
 		clear: both;
 		max-width: 300px;
 	}
@@ -153,7 +147,6 @@ dt { font-weight: bold; color: lightgray; }
 .entry p, .entry li { margin-left: 2em; }
 
 figure img { max-width: 100%; margin: auto; }
-
 figcaption { font-style: italic; font-size: small; }
 
 figure { text-align: center; }
@@ -167,12 +160,6 @@ figure { text-align: center; }
 }
 
 #toc li { padding: 5px }
-
-.new::after {
-	content: " 🆕" ;
-	/* content: " (New 🎁)" ; */
-	color: goldenrod ;
-}
 
 .i a { color: green ;}
 .d a { color: red ;}
@@ -200,36 +187,16 @@ figure { text-align: center; }
 }
 
 #tagcloud li {
-	display: inline-block ;
-	padding: 0.5em ;
-	margin: 0.5em ;
-	width: auto ;
-	background: darkturquoise ;
-	border-radius: 10px ;
+	display: inline-block;
+	padding: 0.5em;
+	margin: 0.5em;
+	width: auto;
+	background: darkturquoise;
+	border-radius: 2em;
 }
 
-#tagcloud li:hover {
-	background: white ;
-}
-
-#tagcloud a { color: black ; }
-
-#taglist {
-	max-width: 300px ;
-	margin: auto ;
-	text-align: center ;
-	display: block ;
-}
-
-#taglist li {
-	display: inline-block ;
-	padding-right: 0.5em ;
-	padding-left: 0.5em ;
-}
-
-#taglist::before { content: "This article is tagged as:" ; display: block; font-size: small ; }
-
-#taglist::after { content: "Click the links above for related articles." ; display: block ;  font-size: small ;}
+#tagcloud li:hover { background: white; }
+#tagcloud a { color: black; }
 
 #mainmenu dd {
   display: inline;
