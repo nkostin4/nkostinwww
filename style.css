@@ -82,13 +82,9 @@ html {
 }
 
 h1,h2,h3,h4 { text-align: center; }
-
 h1 { color: tomato; }
-
 h2 { color: goldenrod; }
-
 h3 { color: tomato; }
-
 h4 { color: white; }
 
 a { color: #00ffff; text-decoration: none;}
@@ -178,20 +174,20 @@ figure { text-align: center; }
 }
 
 #tagcloud {
-	padding: 0;
-	font-size: small ;
-	font-variant: small-caps ;
-	background: midnightblue ;
-	border-radius: 10px ;
-	text-align: center ;
+	padding: 0em;
+	/* font-size: small; */
+	/* font-variant: small-caps; */
+	background: midnightblue;
+	border-radius: 2em;
+	text-align: center;
 }
 
 #tagcloud li {
 	display: inline-block;
-	padding: 0.5em;
-	margin: 0.5em;
+	padding: 0em;
+	margin: 0em;
 	width: auto;
-	background: darkturquoise;
+	background: midnightblue;
 	border-radius: 2em;
 }
 
