@@ -82,7 +82,7 @@ html {
 }
 
 h1,h2,h3,h4 { text-align: center; }
-h1 { color: tomato; }
+h1 { color: white; }
 h2 { color: goldenrod; }
 h3 { color: tomato; }
 h4 { color: white; }
@@ -155,10 +155,10 @@ figure { text-align: center; }
 
 }
 
-#toc li { padding: 5px }
+#toc li { padding: 5px; }
 
-.i a { color: green ;}
-.d a { color: red ;}
+.i a { color: green; }
+.d a { color: red; }
 
 /* For QR codes for bitcoin and crypto */
 .qr { max-width: 150px ; padding: 10px }
@@ -174,6 +174,7 @@ figure { text-align: center; }
 }
 
 #tagcloud {
+    margin: 0.5em;
 	padding: 0em;
 	/* font-size: small; */
 	/* font-variant: small-caps; */
@@ -186,13 +187,13 @@ figure { text-align: center; }
 	display: inline-block;
 	padding: 0em;
 	margin: 0em;
-	width: auto;
+	/* width: auto; */
 	background: midnightblue;
-	border-radius: 2em;
+	border-radius: 1em;
 }
 
-#tagcloud li:hover { background: white; }
-#tagcloud a { color: black; }
+#tagcloud li:hover { background: black; }
+#tagcloud a { color: white; }
 
 #mainmenu dd {
   display: inline;
