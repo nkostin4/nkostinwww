@@ -95,16 +95,7 @@ a:hover { color: #ff4500;}
 	max-height: 10em;
 }
 
-.lmao { padding: 1.25em; }
-
-.lmao ul {
-	margin: auto;
-	list-style: none;
-	padding: 0em;
-}
-
 @media (min-width: 55em) {
-	.lmao { display: inline-block; vertical-align: top; }
 	.resright, .disappear {
 		display: block;
 		float: right;
@@ -113,14 +104,6 @@ a:hover { color: #ff4500;}
 		max-width: 300px;
 	}
 	main { max-width: 850px; }
-	.column {
-		float: left;
-		width: 100%;
-        display: table;
-	    padding: 0em;
-        margin: auto;
-        max-width: 777px;
-	}
 }
 
 .entry p, .entry li { margin-left: 2em; }
