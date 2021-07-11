@@ -30,7 +30,7 @@ nav ul, footer ul, #taglist {
 }
 
 nav a li:hover, footer a li:hover {
-	background: goldenrod ;
+	background: firebrick ;
 	color: black ;
 }
 
@@ -44,13 +44,13 @@ main {
 
 strong { color: white ; }
 
-a strong { color: lime ; }
+a strong { color: orange ; }
 
 details { padding-left: 20px ; text-decoration: underline; }
 
 pre {
-	background: #222 ;
-	border: 1px solid lime ;
+	background: black ;
+	border: 1px solid orange ;
 	border-radius: 20px ;
 	padding: 1em ;
 	margin: 1em ;
@@ -58,8 +58,8 @@ pre {
 }
 
 code {
-	background: #222 ;
-	color: lime ;
+	background: black ;
+	color: orange ;
 	border-radius: 5px ;
 	overflow-wrap: break-word ;
 }
@@ -92,25 +92,24 @@ li img, p img {
 body {
     font-style: sans-serif ;
 	padding-top: 10px;
-	background: black ;
-	/* background: linear-gradient(darkslategray, black) no-repeat fixed ; */
-	/* margin-bottom: 500px; */
+	background: linear-gradient(midnightblue, black) no-repeat fixed ;
+	margin-bottom: 500px;
 }
 
 h1,h2,h3,h4 { text-align: center ; }
 
-h1 { color: lightblue ; }
+h1 { color: azure ; }
 
-h2 { color: goldenrod ; }
+h2 { color: darkorange ; }
 
-h3 { color: tomato ; }
+h3 { color: darkred ; }
 
 h4 { color: deepskyblue ; }
 
 a { color: turquoise ; text-decoration: none ;}
 
-a:hover { color: greenyellow ;}
-.new a:hover { color: greenyellow ; }
+a:hover { color: firebrick ;}
+.new a:hover { color: red ; }
 
 
 dt { font-weight: bold ; color: lightgray ; }
@@ -143,19 +142,7 @@ dt { font-weight: bold ; color: lightgray ; }
 	padding: 0;
 }
 
-/* .lol li { */
-/* 	padding: 1px ; */
-/* } */
-
 @media (min-width: 55em) {
-
-    /* nav { */
-    /*     position: fixed; */
-    /* } */
-    /* nav li { */
-    /*     display: block ; */
-    /*     margin: 10px ; */
-    /* } */
 
 	.lol { display: inline-block; vertical-align: top ; }
 
@@ -181,12 +168,6 @@ dt { font-weight: bold ; color: lightgray ; }
 	}
 
 }
-
-/* footer { */
-/* 	font-size: large ; */
-/* 	margin: auto ; */
-/* 	max-width: 500px ; */
-/* } */
 
 .entry p, .entry li { margin-left: 2em ; }
 
