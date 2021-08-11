@@ -277,4 +277,8 @@ aside {
 
 blockquote {
 	text-align: center ;
+    background-color: #000000 ;
+    border: firebrick solid 2px ;
+    border-radius: 15px 15px 15px 15px ;
+    padding: 5px ;
 }
