@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>The Latest from N. Kostin</title>
+  <description>Updates from Nicholas D. Kostin</description>
+  <link>https://nkostin.xyz/rss.xml</link>
+  <lastBuildDate>
+    Thu, 12 Aug 2021 02:32:15 -06:00
+  </lastBuildDate>
+  <ttl>20000</ttl>
+  
+  <item>
+    <title>My New Website is Live</title>
+    <description>
+        <![CDATA[ <p>I've finally deployed my new (extremely lightweight) website. This'll be a place where I publish guides, musings on various things, and possibly much more 😀</p> <p>In the spirit of the old internet, this website is written to be simple and minimal. I think this is how all websites should be designed.</p> <p>There's no stupid JavaScript running. No cookies. Just HTML and CSS, as it should be.</p> ]]>
+    </description>
+    <link>https://nkostin.xyz/articles/my-new-website-is-live.html</link>
+    <pubDate>
+      Thu, 12 Aug 2021 02:32:15 -06:00
+    </pubDate>
+  </item>
+
+  <item>
+    <title>Getting Started with Manim</title>
+    <description>
+        <![CDATA[ <p>I wrote a short article on getting started with manim. Hopefully it'll get updated soon.</p> ]]>
+    </description>
+    <link>https://nkostin.xyz/articles/getting-started-with-manim.html</link>
+    <pubDate>
+      Mon, 15 Mar 2021 08:00:00 -06:00
+    </pubDate>
+  </item>
+</channel>
+</rss>
