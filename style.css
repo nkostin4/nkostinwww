@@ -92,7 +92,8 @@ li img, p img {
 body {
     font-style: sans-serif ;
 	padding-top: 10px;
-	background: linear-gradient(midnightblue, black) no-repeat fixed ;
+	/* background: linear-gradient(midnightblue, black) no-repeat fixed ; */
+	background: linear-gradient(tomato, black) no-repeat fixed ;
 	margin-bottom: 500px;
 }
 
