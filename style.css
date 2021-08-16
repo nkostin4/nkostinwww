@@ -1,28 +1,28 @@
 p img, li img, h1 img, h2 img, h3 img, h4 img {
 	max-height: 1em;
 	max-width: 1em;
-	vertical-align: middle ;
+	vertical-align: middle;
 }
 
 sup { vertical-align: top; font-size: 0.6em; }
 
 nav,footer {
-    text-align: center ;
-    font-variant: small-caps ;
-    clear: both ;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
 }
 
-nav { font-size: small ;}
+nav { font-size: small; }
 
-footer { font-size: large ; }
+footer { font-size: large; }
 
 nav li,footer li {
-	display: inline-block ;
-	list-style: none ;
-	background: rgba(0,0,0,.3) ;
-	border-radius: 10px ;
-	padding: .5em ;
-	max-width: 7em ;
+	display: inline-block;
+	list-style: none;
+	background: rgba(0,0,0,.3);
+	border-radius: 10px;
+	padding: .5em;
+	max-width: 7em;
 }
 
 nav ul, footer ul, #taglist {
@@ -30,90 +30,87 @@ nav ul, footer ul, #taglist {
 }
 
 nav a li:hover, footer a li:hover {
-	background: firebrick ;
-	color: black ;
+	background: firebrick;
+	color: black;
 }
 
 main {
-	margin: auto ;
-	color: #ddd ;
-	background: rgba(0,0,0,.3) ;
-	padding: 20px ;
-	border-radius: 50px ;
+	margin: auto;
+	color: #ddd;
+	background: rgba(0,0,0,.3);
+	padding: 20px;
+	border-radius: 50px;
 }
 
-strong { color: white ; }
+strong { color: white; }
 
-a strong { color: orange ; }
+a strong { color: orange; }
 
-details { padding-left: 20px ; text-decoration: underline; }
+details { padding-left: 20px; text-decoration: underline; }
 
 pre {
-	background: black ;
-	border: 1px solid orange ;
-	border-radius: 20px ;
-	padding: 1em ;
-	margin: 1em ;
+	background: black;
+	border: 1px solid orange;
+	border-radius: 20px;
+	padding: 1em;
+	margin: 1em;
 	white-space: pre-wrap;
 }
 
 code {
-	background: black ;
-	color: orange ;
-	border-radius: 5px ;
-	overflow-wrap: break-word ;
+	background: black;
+	color: orange;
+	border-radius: 5px;
+	overflow-wrap: break-word;
 }
 
 .cryptocontainer {
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: center ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .cryptoinfo {
-    max-width: 350px ;
-    text-align: center ;
-    padding-left: 10px ;
-    padding-right: 10px ;
+    max-width: 350px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .cryptoinfo code {
-	font-size: small ;
-	overflow-wrap: break-word ;
+	font-size: small;
+	overflow-wrap: break-word;
 }
 ul {
-	margin-left: 20px ;
-	margin-right: 20px ;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 li img, p img {
-	max-height: 1em ;
-	max-width: 1em ;
+	max-height: 1em;
+	max-width: 1em;
 }
 
 body {
-    font-style: sans-serif ;
+    font-style: sans-serif;
 	padding-top: 10px;
-	/* background: linear-gradient(midnightblue, black) no-repeat fixed ; */
-	background: linear-gradient(tomato, black) no-repeat fixed ;
+	background: linear-gradient(darkslateblue, black) no-repeat fixed;
 	margin-bottom: 500px;
 }
 
-h1,h2,h3,h4 { text-align: center ; }
+h1,h2,h3,h4 { text-align: center; }
 
-h1 { color: azure ; }
+h1 { color: azure; }
 
-h2 { color: gold ; }
+h2 { color: gold; }
 
-h3 { color: darkred ; }
+h3 { color: darkred; }
 
-h4 { color: deepskyblue ; }
+h4 { color: deepskyblue; }
 
-a { color: turquoise ; text-decoration: none ;}
+a { color: mediumspringgreen; text-decoration: none; }
 
-a:hover { color: firebrick ;}
-.new a:hover { color: red ; }
+a:hover { color: firebrick; }
 
-
-dt { font-weight: bold ; color: lightgray ; }
+dt { font-weight: bold ; color: lightgray; }
 
 .resright, .resmid {
 	display: block ;
@@ -123,18 +120,18 @@ dt { font-weight: bold ; color: lightgray ; }
 }
 
 .disappear {
-	display: none ;
+	display: none;
 }
 
 .titleimg {
-	display: block ;
-	margin: auto ;
-	max-width: 90% ;
-	max-height: 400px ;
+	display: block;
+	margin: auto;
+	max-width: 90%;
+	max-height: 400px;
 }
 
 .lol {
-	padding: .25em ;
+	padding: .25em;
 }
 
 .lol ul {
@@ -145,43 +142,38 @@ dt { font-weight: bold ; color: lightgray ; }
 
 @media (min-width: 55em) {
 
-	.lol { display: inline-block; vertical-align: top ; }
+	.lol { display: inline-block; vertical-align: top; }
 
 	.resright, .disappear {
-		display: block ;
+		display: block;
 		float: right;
-		padding: 20px ;
-		clear: both ;
-		max-height: 300px ;
-		max-width: 300px ;
+		padding: 20px;
+		clear: both;
+		max-height: 300px;
+		max-width: 300px;
 	}
 
 	.resmid {
-		max-height: 300px ;
-		max-width: 300px ;
+		max-height: 300px;
+		max-width: 300px;
 	}
 
-	main { max-width: 900px ; }
+	main { max-width: 900px; }
 
 	.column {
 		float: left;
-		width: 50% ;
+		width: 50%;
 	}
 
 }
 
-.entry p, .entry li { margin-left: 2em ; }
+.entry p, .entry li { margin-left: 2em; }
 
-figure img { max-width: 100% ; margin: auto ; }
+figure img { max-width: 100%; margin: auto; }
 
-figcaption { font-style: italic ; font-size: small ; }
+figcaption { font-style: italic; font-size: small; }
 
 figure { text-align: center; }
-
-.new::after {
-	content: " 🆕" ;
-	color: goldenrod ;
-}
 
 .i a { color: green ;}
 .d a { color: red ;}
@@ -190,56 +182,14 @@ figure { text-align: center; }
 .qr { max-width: 150px ; padding: 10px }
 
 .entryinfo {
-	text-align: center ;
-	font-size: x-small ;
-	margin: 0 ;
+	text-align: center;
+	font-size: x-small;
+	margin: 0;
 }
 
 #mainmenu {
-	font-size: large ;
+	font-size: large;
 }
-
-#tagcloud {
-	padding: 0;
-	font-size: small ;
-	font-variant: small-caps ;
-	background: midnightblue ;
-	border-radius: 10px ;
-	text-align: center ;
-	margin: 0 ;
-}
-
-#tagcloud li {
-	display: inline-block ;
-	padding: 0.4em ;
-	margin: 0.4em ;
-	width: auto ;
-	background: darkturquoise ;
-	border-radius: 10px ;
-}
-
-#tagcloud li:hover {
-	background: white ;
-}
-
-#tagcloud a { color: black ; }
-
-#taglist {
-	max-width: 300px ;
-	margin: auto ;
-	text-align: center ;
-	display: block ;
-}
-
-#taglist li {
-	display: inline-block ;
-	padding-right: 0.5em ;
-	padding-left: 0.5em ;
-}
-
-#taglist::before { content: "This article is tagged as:" ; display: block; font-size: small ; }
-
-#taglist::after { content: "Click the links above for related articles." ; display: block ;  font-size: small ;}
 
 #mainmenu dd {
   display: inline;
@@ -255,20 +205,20 @@ figure { text-align: center; }
 }
 
 aside {
-	font-style: italic ;
-	font-size: small ;
-	color: lightgray ;
-	margin-left: 3em ;
-	margin-right: 3em ;
-	padding: 0 1em 0 1em ;
-	border: 1px solid black ;
-	border-radius: 20px ;
+	font-style: italic;
+	font-size: small;
+	color: lightgray;
+	margin-left: 3em;
+	margin-right: 3em;
+	padding: 0 1em 0 1em;
+	border: 1px solid black;
+	border-radius: 20px;
 }
 
 blockquote {
-	text-align: center ;
-    background-color: #000000 ;
-    border: firebrick solid 2px ;
-    border-radius: 15px 15px 15px 15px ;
-    padding: 5px ;
+	text-align: center;
+    background-color: #000000;
+    border: firebrick solid 2px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
 }
