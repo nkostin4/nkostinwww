@@ -36,10 +36,10 @@ nav a li:hover, footer a li:hover {
 
 main {
 	margin: auto;
-	color: #ddd;
-	background: rgba(0,0,0,.3);
-	padding: 20px;
-	border-radius: 50px;
+	color: ghostwhite;
+	background: rgba(0,0,0,.6);
+	padding: 25px;
+	border-radius: 25px;
 }
 
 strong { color: white; }
@@ -64,21 +64,6 @@ code {
 	overflow-wrap: break-word;
 }
 
-.cryptocontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.cryptoinfo {
-    max-width: 350px;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.cryptoinfo code {
-	font-size: small;
-	overflow-wrap: break-word;
-}
 ul {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -92,7 +77,7 @@ li img, p img {
 body {
     font-style: sans-serif;
 	padding-top: 10px;
-	background: linear-gradient(darkslateblue, black) no-repeat fixed;
+	background: linear-gradient(slateblue, black) no-repeat fixed;
 	margin-bottom: 500px;
 }
 
@@ -102,7 +87,7 @@ h1 { color: azure; }
 
 h2 { color: gold; }
 
-h3 { color: darkred; }
+h3 { color: red; }
 
 h4 { color: deepskyblue; }
 
@@ -164,7 +149,6 @@ dt { font-weight: bold ; color: lightgray; }
 		float: left;
 		width: 50%;
 	}
-
 }
 
 .entry p, .entry li { margin-left: 2em; }
@@ -217,8 +201,8 @@ aside {
 
 blockquote {
 	text-align: center;
-    background-color: #000000;
-    border: firebrick solid 2px;
-    border-radius: 15px 15px 15px 15px;
-    padding: 5px;
+	background-color: black;
+	border: firebrick solid 2px;
+	border-radius: 15px 15px 15px 15px;
+	padding: 5px;
 }
