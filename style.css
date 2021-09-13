@@ -4,29 +4,23 @@ p img, li img, h1 img, h2 img, h3 img, h4 img {
 	vertical-align: middle;
 }
 
-sup { vertical-align: top; font-size: 0.6em; }
-
 nav,footer {
     text-align: center;
     font-variant: small-caps;
     clear: both;
 }
 
-nav { font-size: small; }
+nav { font-size: medium; }
 
 footer { font-size: large; }
 
 nav li,footer li {
 	display: inline-block;
 	list-style: none;
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.4);
 	border-radius: 10px;
 	padding: .5em;
 	max-width: 7em;
-}
-
-nav ul, footer ul, #taglist {
-	padding: 0;
 }
 
 nav a li:hover, footer a li:hover {
@@ -37,7 +31,7 @@ nav a li:hover, footer a li:hover {
 main {
 	margin: auto;
 	color: ghostwhite;
-	background: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.7);
 	padding: 25px;
 	border-radius: 25px;
 }
@@ -64,10 +58,10 @@ code {
 	overflow-wrap: break-word;
 }
 
-ul {
+/*ul {
 	margin-left: 20px;
 	margin-right: 20px;
-}
+}*/
 
 li img, p img {
 	max-height: 1em;
@@ -77,8 +71,16 @@ li img, p img {
 body {
     font-style: sans-serif;
 	padding-top: 10px;
-	background: linear-gradient(#040080, black) no-repeat fixed;
+	background: linear-gradient(#040080, darkslategray) no-repeat fixed;
 	margin-bottom: 500px;
+}
+
+blockquote {
+	text-align: center;
+	background-color: black;
+	border: firebrick solid 2px;
+	border-radius: 15px 15px 15px 15px;
+	padding: 5px;
 }
 
 h1,h2,h3,h4 { text-align: center; }
@@ -95,114 +97,4 @@ a { color: mediumspringgreen; text-decoration: none; }
 
 a:hover { color: firebrick; }
 
-dt { font-weight: bold ; color: lightgray; }
-
-.resright, .resmid {
-	display: block ;
-	margin: auto ;
-	max-width: 90% ;
-	max-height: 300px ;
-}
-
-.disappear {
-	display: none;
-}
-
-.titleimg {
-	display: block;
-	margin: auto;
-	max-width: 90%;
-	max-height: 400px;
-}
-
-.lol {
-	padding: .25em;
-}
-
-.lol ul {
-	margin: 0;
-	list-style: none;
-	padding: 0;
-}
-
-@media (min-width: 55em) {
-
-	.lol { display: inline-block; vertical-align: top; }
-
-	.resright, .disappear {
-		display: block;
-		float: right;
-		padding: 20px;
-		clear: both;
-		max-height: 300px;
-		max-width: 300px;
-	}
-
-	.resmid {
-		max-height: 300px;
-		max-width: 300px;
-	}
-
-	main { max-width: 900px; }
-
-	.column {
-		float: left;
-		width: 50%;
-	}
-}
-
-.entry p, .entry li { margin-left: 2em; }
-
-figure img { max-width: 100%; margin: auto; }
-
-figcaption { font-style: italic; font-size: small; }
-
-figure { text-align: center; }
-
-.i a { color: green ;}
-.d a { color: red ;}
-
-/* For QR codes for bitcoin and crypto */
-.qr { max-width: 150px ; padding: 10px }
-
-.entryinfo {
-	text-align: center;
-	font-size: x-small;
-	margin: 0;
-}
-
-#mainmenu {
-	font-size: large;
-}
-
-#mainmenu dd {
-  display: inline;
-  margin: 0;
-}
-#mainmenu dd:after{
-  display: block;
-  content: '';
-}
-#mainmenu dt{
-  display: inline-block;
-  min-width: 100px;
-}
-
-aside {
-	font-style: italic;
-	font-size: small;
-	color: lightgray;
-	margin-left: 3em;
-	margin-right: 3em;
-	padding: 0 1em 0 1em;
-	border: 1px solid black;
-	border-radius: 20px;
-}
-
-blockquote {
-	text-align: center;
-	background-color: black;
-	border: firebrick solid 2px;
-	border-radius: 15px 15px 15px 15px;
-	padding: 5px;
-}
+main { max-width: 900px; }
