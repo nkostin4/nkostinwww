@@ -98,3 +98,8 @@ a { color: mediumspringgreen; text-decoration: none; }
 a:hover { color: firebrick; }
 
 main { max-width: 900px; }
+
+.column {
+    float: left;
+    width: 50%;
+}
