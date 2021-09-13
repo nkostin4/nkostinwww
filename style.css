@@ -99,7 +99,4 @@ a:hover { color: firebrick; }
 
 main { max-width: 900px; }
 
-.column {
-    float: left;
-    width: 50%;
-}
+@media (min-width: 55em) { .column { float: left; width: 50%; } }
