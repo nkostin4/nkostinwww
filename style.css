@@ -71,7 +71,7 @@ li img, p img {
 body {
 	font-style: sans-serif;
 	padding-top: 10px;
-	background: linear-gradient(#040080, gray) no-repeat fixed;
+	background: linear-gradient(#040080, dimgray) no-repeat fixed;
 	margin-bottom: 500px;
 }
 
