@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>It's Time to Quit the Smartphone</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel='stylesheet' type='text/css' href='../style.css'>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<header>
+<h1>It's Time to Quit the Smartphone</h1>
+</header>
+
+<nav><ul><a href="../index.html"><li>🏠 Home</li></a><a href="../contact.html"><li>📬 Contact</li></a><a href="../rss.xml"><li><img src="../pictures/rss.svg" alt="rss logo"> RSS</li></a><a href="../donate.html"><li>💸 Donate</li></a></ul></nav>
+
+<main>
+
+<p>by <a href="../index.html">N. Kostin</a></p>
+
+<p>Originally written 16 October 2021. Last updated 17 October 2021.</p>
+
+<hr style=clear:both>
+
+<p>Smartphones are on the next level of frustration. There's a good chance that as you're reading this right now, there's a smartphone in your pocket or at least within arm's reach. Given that smartphones are exceedingly common, it may be strange to profess that they are frustrating. And yet, I'll claim that cell phones are perhaps the most frustrating things to ever be invented, if not outright harmful.</p>
+
+<p>Broadly, the problems with smartphones (really, with cell phones in general) may fall in one of two categories: (1) <a href=#tech>technical woes</a> and (2) <a href=#society>societal and psychological issues</a> that come from using cell phones. The former I'll address first, providing some techical details where necessary, insofar as to not obfuscate the key points. The latter I consider to be a much more potent issue and accordingly will dedicate a longer analysis of.</p>
+
+<h2 id=tech>Technical Frustrations</h2>
+
+<p>Let's start by enumerating the things wrong with cell phones from a technical perspective. <a href=#society>Feel free to skip this section if you don't think you'll get much out of it</a>, as I consider it the lesser of the two major things wrong with smartphones.</p>
+
+<h3>Nobody Really Owns Their Smartphone</h3>
+
+<p>For many people, smartphones are, without question, the most important computers they use. People keep everything from their emails, to their conversations with their friends, to photos that capture their favorite moments on their smartphones. Some people go as far as storing passwords and other secrets on these computers they keep in their pockets or purses. So it might sound odd to claim that <em>few people actually own these computers</em>.</p>
+
+<p>Let's answer the important question: <em>what constitutes ownership of a computer?</em> I claim (and I'm right) that unless you have <em>exclusive administrative access</em> to a computer, you do not own that computer. Imagine your employer issued a laptop so that you're able to work remotely. When your company's IT department gave you that laptop, they probably installed all the software you need to work remotely. As such, it is very likely that you don't have administrative access on that laptop. For a company-issued laptop that makes perfect sense: your boss probably doesn't want you playing Minecraft on his dime. By contrast, if a NEET buys the parts for and assembles his own computer, he has the freedom to do whatever he pleases on that machine.</p>
+
+<p>That makes cell phones particularly puzzling 🤔: you likely paid hundreds of dollars for your phone, but unless you've gone through the rigmarole of rooting your phone, you don't own it. Instead, it's really Google's phone (or Apple's phone, if you're a turbo-normie and have an iPhone). Google has root access to your phone, and they can do whatever they want with your phone, but you can't.</p>
+
+<figure style="float:center;">
+<img src="../pictures/articles/its-time-to-quit-the-smartphone/permission_denied.jpg" alt="Permission Denied" style="width:100%"></img>
+<figcaption style="display:block;color:red;padding:2px;text-align:center;">This screenshot from an Android phone reveals that the user does not have root access. <code>cd /</code> means "change directory into the root folder, which is kind of like the <code>C:\\</code> drive on Windows (it's the highest folder in the directory structure). <code>pwd</code> means "print working directory": that command is there to confirm that we're in the root folder. <code>ls</code> means "list the files and directories"; of course, the operating system prevents the user from doing so. (Android uses the linux kernal, so it has a similar file structure.) This screenshot was taken from <a href="https://termux.com/">Termux</a>, a terminal emulator for Android available on the F-Droid store.</figcaption>
+</figure>
+
+<p>Of course, you can install apps or whatever from the Play Store; this is not the same thing as having root access (or administrative access if you will - I've been using the terms interchangably) to your phone. Have you ever tried to uninstall the camera app from your phone, only to be denied the ability to do so? Well it turns out there's nothing substantive to that: it's not like your Huawei is going to explode if there's no app to take pictures. All that's happening is that your phone is preventing you - a user without root access - from removing that particular app 🤷</p>
+
+<p>At the end of the day, that means that most smartphones are running exclusively proprietary apps on a proprietary operating system. Most people don't know what websites and services their phone is connecting to, let alone what processes are running in the background.</p>
+
+<h3>The Bare Minimum</h3>
+
+<p><b>You should have root access to your own phone.</b> You paid for it, after all. Imagine keeping a phone in your pocket all day (where it probably radiates your testicles or something) and not having the basic rights that come with owning any other computer. Specifically, you should be able to</p>
+
+<ul>
+    <li>Install and uninstall whatever you want. Ideally, this means running entirely free software.</li>
+    <li>Not have anything malicious in your cell phone. No pinging websites in the background without your knowlegdge. No spooky Google services.</li>
+</ul>
+
+<p>(Some may rightly object and say that as long as a cell phone is connected to a cell tower, it is trackable and therefore not private. This is true, but can be mitigated. Use a Faraday cage if needed when roaming.)</p>
+
+<p>All this discussion brings me nicely to my main issue:</p>
+
+<h3>It is So Difficult to Root a Phone</h3>
+
+<p>I have spent so much time (more than I care to admit) attempting to unlock the bootloader on a number of phones, and I've never succeeded. There's no way I'm that much of a tech-illerate boomer, so that leaves me to conclude that it is just genuinely difficult to acquire root access to a phone.</p>
+
+<p>For starters, when it comes to the choice for an operating system, the options are extremely limited. The nice thing about Android is that the base operating system is open source, and is <a href="https://source.android.com/setup/start/licenses">licensed under the Apache License</a>. That means that, in theory, anyone can make a fork of the operating system without the spookiness that Google includes (not to mention, the layers of spyware spookiness that manufacturers like Samsung and LG add on top of that).</p>
+
+<p>And yet, only a small number of free software, privacy-respecting forks (known as custom ROMs) exist. You're pretty much limited to <a href="https://lineageos.org/">LineageOS</a>, <a href="https://grapheneos.org/">GrapheneOS</a>, or <a href="https://calyxos.org/">CalyxOS</a>. And each one of these has a number of problems:</p>
+
+<ul>
+    <li>LineageOS has great hardware support, but still depends on a number of spooky Google services. For example, LineageOS</li>
+    <ul>
+        <li>is configured by default to use <code>8.8.8.8</code>, Google's DNS server, for name resolution</li>
+        <li>pings <code>connectivitycheck.gstatic.com</code>, a Google's captive portal service, whenever connecting to a new WiFi network</li>
+    </ul>
+    <li>GrapheneOS and CalyxOS seem to do a great job of de-Googling, but have extremely limited hardware support. In order to install either GrapheneOS or CalyxOS, your only choice is a Google Pixel. Google's hardware is extremely overpriced for its value: Pixel phones from just a few year ago can easily go for upwards of 500 USD on ebay. To get a cheap Pixel, you pretty much have no choice but to buy a used model from many years ago, and you'll be lucky to get a few months of support on GrapheneOS.</li>
+</ul>
+
+<p>Of course, I'm not making perfect the enemy of good. If you're able to successfully install any one of these three ROMs to your phone, that is immeasurably better than Google's Android that you get on a Pixel. But that's exactly the thing: to <em>successfully</em> install one of these custom ROMs to a phone is such a painful ordeal. It's so easy to accidentally "brick" your phone when trying to flash a custom ROM.</p>
+
+<p>The icing on the cake is that rooting your phone voids your warranty. It's a risk that almost nobody is brave enough to take, and I'm forced to conclude that manufacturers and software developers alike conspire to make it difficult for you to do what you want with your phone.</p>
+
+<p><em>So what's the soltuion?</em> Honestly, I'm at a loss. The entire process of removing spyware from a smartphone is so daunting, that the best approach is to unironically not own a cell-phone. I fully recognize that this option is not an option for most people (and I'll address this issue later). So that leaves us with the next best thing: minimizing useage of your cell phone.</p>
+
+<h3>Smartphones Keep People Tech-Illiterate</h3>
+
+<p>There's another subtle issue that's worth addressing briefly: tech literacy. Smartphones keep people tech-illiterate</p>
+
+<h2 id=society>Social Frustrations</h2>
+
+<h3>In-Cells</h3>
+
+<p><a href="https://lukesmith.xyz">Luke Smith</a> coined a fantastic term for people who are always in their cell-phones: <em>in-cells</em>. Why is it literally impossible to find someone nowadays who isn't plugged into their monitoring device 24/7? Normies willingly carry what amounts to an ankle monitoring device at all hours of the day!</p>
+
+<figure>
+<img src="../pictures/articles/its-time-to-quit-the-smartphone/respect_women.png" alt="How Am I Supposed to Repsect Women" style="max-width:100%;max-height:400px;float:right"></img>
+<figcaption style="display:block;color:red;font-style:italic;padding:2px;text-align:center;float:right;max-width:400px;"><big><big>HOW AM I SUPPOSED TO RESPECT WOMEN IF I'M NOT CONSTANTLY MESSAGING THEM ON THE INTERNET????</big></big></figcaption>
+</figure>
+
+<p>Let's imagine a scenario. A friend that I've not seen for a long time invited me over for dinner and we're having a conversation. After getting catching each other up on our life events, the conversation slows down, eventually reaching a point where there's a prolonged silence. My friend decides to go to his bookshelf and choose a thriller and start reading it. How abnoxious would that be?</p>
+
+<p>But for some reason, people think it's okay to look at their phones in the middle of a conversation. Or worse, some people actually unironically use their phones while out eating with friends or family! Here you are, with the abilty to talk to someone in real life, but instead, you choose to caress your smartphone, hoping to get a fresh dopamine rush. This drives me absolutely nuts.</p>
+
+<p>The most absurd part of it all is just how reliant people are on their smartphone. Nobody knows how to use a map anymore; Google Maps will get you there quicker. Nobody owns their music anymore; it's much easier to stream it from Spotify.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3>Cell Phones Literally Change the Way You Think</h3>
+
+<p>If the first thing you do when you wake up is check your phone for notifications, </p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<figure style="float:left">
+<img src="../pictures/articles/its-time-to-quit-the-smartphone/cu_boulder_facebook_outage.jpg" alt="CU Boulder Facebook Outage" style="max-width:100%;max-height:300px;"></img>
+<figcaption style="display:block;color:red;padding:2px;text-align:center;max-width:250px;">This is literally how normies react when Instagram goes down for a few hours. LMAO 😂🤣</figcaption>
+</figure>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3>Consumerism</h3>
+
+<p>Smartphones promote an absurd level of consumerism. How absurd is it that there are people who <em>willingly stand in lines</em> to get the newest model of phones.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<figure>
+<img src="../pictures/articles/its-time-to-quit-the-smartphone/consoomer.png" alt="Consooom Product" style="max-width:100%;max-height:300px;float:right;"></img>
+</figure>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<hr style="clear:both">
+
+<h2>Closing Thoughts</h2>
+
+<p>Hopefully I've provided a cogent argument as to why I think smartphones are the most frustrating things ever. I doubt I'm persuasive enough to convince anyone to change their cell phone habits. Nevertheless, I had to get these thoughts out there.</p>
+
+<h3>If You Have To Own a Smartphone . . . </h3>
+
+<p>As I've already mentioned, the ideal solution would be to not own a cell phone. Unfortunately, we live in a society where that is simply not feasible. So if you have to own a cell phone, I recommend:</p>
+
+<ul>
+    <li>Using it as little as possible; avoid taking your phone to school or work if you can help it.</li>
+    <li>Buying an unlocked phone and checking <a href="https://download.lineageos.org/">compatability with LineageOS</a>.</li>
+    <ul>
+        <li>If you can't root your phone, the next best thing is using free software wherever possible. You can easily install <a href="https://f-droid.org/">F-Droid</a>, an app store that promotes free software apps, on any Android phone (rooted or not).</li>
+    </ul>
+    <li>Don't buy an iPhone. The claim that Apple doesn't spy on you because iPhones are expensive so they don't need to make money from your data is pure weapons-grade copium. It's the worst of both worlds: proprietary software and overpriced hardware.</li>
+</ul>
+
+</main>
+
+<footer><ul><a href="../index.html"><li>🏠 Home</li></a><a href="../contact.html"><li>📬 Contact</li></a><a href="../rss.xml"><li><img src="../pictures/rss.svg" alt="rss logo"> RSS</li></a><a href="../donate.html"><li>💸 Donate</li></a></ul></footer>
+
+</body>
+</html>
