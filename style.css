@@ -1,46 +1,59 @@
-p img, li img, h1 img, h2 img, h3 img, h4 img {
-	max-height: 1em;
-	max-width: 1em;
-	vertical-align: middle;
+@media {
+    body {color: #ffffff; background: #222222}
+    a:link {color: blue}
+    a:hover, a:visited:hover {color: azure}
+    a:visited {color: skyblue}
 }
 
-nav,footer {
-	text-align: center;
-	font-variant: small-caps;
-	clear: both;
+body {
+    margin: 1em auto;
+    max-width: 40em;
+    padding: 0.62em;
+    font: 1.2em/1.62 sans-serif;
 }
 
-nav { font-size: medium; }
+h1,h2,h3 {
+    line-height: 1.2;
+}
 
-footer { font-size: large; }
+@media print{body{max-width:none}}
 
-nav li,footer li {
+/* Stuff I stole from Wolfgang */
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li {
 	display: inline-block;
-	list-style: none;
-	background: rgba(0,0,0,.4);
-	border-radius: 10px;
-	padding: .5em;
-	max-width: 7em;
+	list-style-type: none;
+}
+nav > div > ul > li > a {
+	color: var(--fg) !important;
+	display: block;
+	line-height: 2em;
+	padding: 0.5em 0em;
+	text-decoration: none;
+}
+nav > div.nav-right > ul > li > a {
+	padding: 0.5em 0.5em;
+}
+nav > div > ul > li > a:hover {
+	color: var(--fg) !important;
+}
+.nav-left {
+	float: left;
+}
+.nav-left ul li {
+	float: left;
+}
+.nav-right ul li {
+	float: right;
 }
 
-nav a li:hover, footer a li:hover {
-	background: firebrick;
-	color: black;
-}
-
-main {
-	margin: auto;
-	color: ghostwhite;
-	background: rgba(0,0,0,.7);
-	padding: 25px;
-	border-radius: 25px;
-}
-
-strong { color: white; }
-
-a strong { color: orange; }
-
-details { padding-left: 20px; text-decoration: underline; }
+/* Dude can I use your CSS? */
 
 pre {
 	background: black;
@@ -57,46 +70,3 @@ code {
 	border-radius: 5px;
 	overflow-wrap: break-word;
 }
-
-/*ul {
-	margin-left: 20px;
-	margin-right: 20px;
-}*/
-
-li img, p img {
-	max-height: 1em;
-	max-width: 1em;
-}
-
-body {
-	font-style: sans-serif;
-	padding-top: 10px;
-	background: linear-gradient(darkred, darkslategray) no-repeat fixed;
-	margin-bottom: 500px;
-}
-
-blockquote {
-	text-align: center;
-	background-color: black;
-	border: firebrick solid 2px;
-	border-radius: 15px 15px 15px 15px;
-	padding: 5px;
-}
-
-h1,h2,h3,h4 { text-align: center; }
-
-h1 { color: azure; }
-
-h2 { color: gold; }
-
-h3 { color: red; }
-
-h4 { color: deepskyblue; }
-
-a { color: mediumspringgreen; text-decoration: none; }
-
-a:hover { color: firebrick; }
-
-main { max-width: 900px; }
-
-@media (min-width: 55em) { .column { float: left; width: 50%; } }
