@@ -1,8 +1,8 @@
 @media {
     body {color:#ffffff; background:#222222}
-    a:link {color:#9cf}
-    a:hover, a:visited:hover {color:#cef}
-    a:visited {color:#c9f}
+    a:link {color:aquamarine}
+    a:hover, a:visited:hover {color:firebrick}
+    a:visited {color:darkorchid}
 }
 
 body{
@@ -18,7 +18,7 @@ h1,h2,h3 {
 
 @media print{body{max-width:none}}
 
-/* A */
+/* nav */
 
 nav {
     display: flex;
@@ -36,7 +36,7 @@ nav a {
     font-variant: small-caps;
 }
 
-/* E */
+/* code */
 
 pre {
     background: black;
