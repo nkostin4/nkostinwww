@@ -1,11 +1,11 @@
 @media {
-    body {color: #ffffff; background: #222222}
-    a:link {color: blue}
-    a:hover, a:visited:hover {color: azure}
-    a:visited {color: skyblue}
+    body {color:#ffffff; background:#222222}
+    a:link {color:#9cf}
+    a:hover, a:visited:hover {color:#cef}
+    a:visited {color:#c9f}
 }
 
-body {
+body{
     margin: 1em auto;
     max-width: 40em;
     padding: 0.62em;
@@ -18,55 +18,37 @@ h1,h2,h3 {
 
 @media print{body{max-width:none}}
 
-/* Stuff I stole from Wolfgang */
+/* A */
 
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	overflow: hidden;
-}
-nav ul li {
-	display: inline-block;
-	list-style-type: none;
-}
-nav > div > ul > li > a {
-	color: var(--fg) !important;
-	display: block;
-	line-height: 2em;
-	padding: 0.5em 0em;
-	text-decoration: none;
-}
-nav > div.nav-right > ul > li > a {
-	padding: 0.5em 0.5em;
-}
-nav > div > ul > li > a:hover {
-	color: var(--fg) !important;
-}
-.nav-left {
-	float: left;
-}
-.nav-left ul li {
-	float: left;
-}
-.nav-right ul li {
-	float: right;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    padding: 0.2em;
+    border-radius: 5px;
 }
 
-/* Dude can I use your CSS? */
+nav a {
+    font-size: large;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+/* E */
 
 pre {
-	background: black;
-	border: 1px solid orange;
-	border-radius: 20px;
-	padding: 1em;
-	margin: 1em;
-	white-space: pre-wrap;
+    background: black;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+    white-space: pre-wrap;
 }
 
 code {
-	background: black;
-	color: orange;
-	border-radius: 5px;
-	overflow-wrap: break-word;
+    background: black;
+    color: orange;
+    border-radius: 5px;
+    overflow-wrap: break-word;
 }
