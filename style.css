@@ -53,3 +53,9 @@ code {
     border-radius: 5px;
     overflow-wrap: break-word;
 }
+
+blockquote {
+    background-color: #444444;
+    border-radius: 16px 16px 16px 16px;
+    padding: 5px;
+}
