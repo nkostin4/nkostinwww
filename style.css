@@ -59,3 +59,13 @@ blockquote {
     border-radius: 16px 16px 16px 16px;
     padding: 5px;
 }
+
+table, th, td {
+    border: 1px solid silver;
+    border-collapse:collapse;
+    background: #4446;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
